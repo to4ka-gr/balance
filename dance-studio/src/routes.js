@@ -1,9 +1,9 @@
-import { Routes, Route } from "react-router-dom";
-import Home from "./pages/Home";
-import Contacts from "./pages/Contacts";
-import Gallery from "./pages/Gallery";
-import Schedule from "./pages/Schedule";
-import Trainers from "./pages/Trainers";
+import { Routes, Route } from 'react-router-dom';
+import Home from './pages/Home';
+import Contacts from './pages/Contacts';
+import Gallery from './pages/Gallery';
+import Schedule from './pages/Schedule';
+import Trainers from './pages/Trainers';
 
 const AppRoutes = () => {
   return (

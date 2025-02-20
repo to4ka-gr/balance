@@ -3,8 +3,10 @@ module.exports = {
     browser: true,
     es2021: true,
   },
-  extends: ["react-app", "plugin:prettier/recommended"],
+  extends: ['react-app', 'prettier'],
+  plugins: ['prettier'], // Добавляем плагин Prettier
   rules: {
-    "prettier/prettier": ["error"],
+    'prettier/prettier': ['error', { singleQuote: true }], // Добавляем настройки для Prettier
+    'react/react-in-jsx-scope': 'off', // Убираем ошибку с React 17+
   },
 };

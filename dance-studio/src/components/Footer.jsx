@@ -1,5 +1,5 @@
-import YandexMap from "./YandexMap";
-import "../styles/Footer.scss";
+import YandexMap from './YandexMap';
+import '../styles/Footer.scss';
 
 const Footer = () => {
   return (
